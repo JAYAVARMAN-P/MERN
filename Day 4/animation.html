@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: anime;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:normal;
+            animation-timing-function: ease-in-out;
+            animation-delay: 5s;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        @keyframes anime {
+            0%{background-color: blue; left: 20px; top: 20px;}
+            20%{background-color: red; left: 220px; top: 20px;}
+            40%{background-color: green; left: 220px; top: 220px;}
+            60%{background-color: yellow;left: 20px; top: 220px;}
+            80%{background-color: yellow;left: 20px; top: 20px;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
